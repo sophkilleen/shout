@@ -1,0 +1,152 @@
+@font-face {
+    font-family: brunoacesc;
+    src: url(BrunoAceSC-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*********** header **********/
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background: url(headerpic.jpg);
+
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+nav a {
+    font-family: brunoacesc;
+    text-decoration: none;
+    color:#f2f1f0;
+
+}
+
+/*********** forside **********/
+
+main{
+    display:flex;
+    flex-direction: column;
+    background-color: #f5f4f4;
+  
+} 
+
+.billede1{
+    display:flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.overskriftforside{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    font-family: brunoacesc;
+    color: #797979;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.tokolonnerforside{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.tokolonnerforside > section{
+    width: 580px;
+    height: 600px;
+    background-color: #f5f4f4;
+    margin-top: 20px;
+    padding:5px;
+    text-align: left;
+    color: #797979;
+}
+
+.tokolonnerforside h2{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: 30px; 
+    line-height: 35px;
+}
+
+
+/*********** spillesteder **********/
+
+.overskriftspillested{
+    display: flex;
+    font-size: 20px;
+    font-family: brunoacesc;
+    color: #797979;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.tokolonner{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.tokolonner > section{
+    width: 500px;
+    height: 600px;
+    background-color: #f5f4f4;
+    margin-top: 20px;
+    padding:5px;
+    text-align: center;
+    color: #797979;
+}
+
+.tokolonner h2{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 35px;
+}
+
+
+.spillestedpic{
+    margin-top: 20px;
+    display:flexbox;
+}
+
+.trebilleder section{
+    color: #ffffff;
+}
+
+.trekolonner{
+    width:84%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
