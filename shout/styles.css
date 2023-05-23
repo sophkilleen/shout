@@ -3,6 +3,17 @@
     src: url(BrunoAceSC-Regular.ttf);
 }
 
+@font-face {
+    font-family: brunoace;
+    src: url(BrunoAce-Regular.ttf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(Quicksand.ttf);
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -51,7 +62,6 @@ main{
     display:flex;
     flex-direction: column;
     background-color: #f5f4f4;
-  
 } 
 
 .billede1{
@@ -64,8 +74,8 @@ main{
     display: flex;
     justify-content: left;
     font-size: 20px;
-    font-family: brunoacesc;
-    color: #797979;
+    font-family: brunoace;
+    color: #481B81;
     margin-top: 90px;
     margin-bottom: 10px;
 }
@@ -80,18 +90,18 @@ main{
     width: 580px;
     height: 600px;
     background-color: #f5f4f4;
-    margin-top: 20px;
-    padding:5px;
+    margin-top: 60px;
+    padding:10px;
     text-align: left;
-    color: #797979;
 }
 
 .tokolonnerforside h2{
-    font-family: sans-serif;
+    font-family: quicksand;
     font-weight: 200;
     font-size: 22px;
     margin-top: 30px; 
     line-height: 35px;
+    color: #303030;
 }
 
 
@@ -100,9 +110,9 @@ main{
 .overskriftspillested{
     display: flex;
     font-size: 20px;
-    font-family: brunoacesc;
-    color: #797979;
-    margin-top: 80px;
+    font-family: brunoace;
+    color: #481B81;
+    margin-top: 70px;
     margin-bottom: 10px;
 }
 
@@ -113,17 +123,16 @@ main{
 }
 
 .tokolonner > section{
-    width: 500px;
-    height: 600px;
-    background-color: #f5f4f4;
+    width: 480px;
+    height: 560px;
     margin-top: 20px;
-    padding:5px;
+    padding:30px;
     text-align: center;
-    color: #797979;
+    color: #303030;
 }
 
 .tokolonner h2{
-    font-family: sans-serif;
+    font-family: quicksand;
     font-weight: 200;
     font-size: 22px;
     margin-top: 30px;
@@ -131,22 +140,84 @@ main{
     line-height: 35px;
 }
 
-
 .spillestedpic{
     margin-top: 20px;
     display:flexbox;
 }
 
-.trebilleder section{
-    color: #ffffff;
-}
 
 .trekolonner{
-    width:84%;
+    width:100%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+}
+
+.tokolonnermaps{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.tokolonnermaps > section{
+    width: 530px;
+    height: 600px;
+    background-color: #f5f4f4;
+    margin-top: 50px;
+    padding:5px;
+    text-align: left;
+    color: #303030;
+}
+
+.overskriftmaps{
+    display: flex;
+    justify-content: left;
+    font-size: 13px;
+    font-family: quicksand;
+    color: #303030;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.tokolonnermaps h3{
+    font-family: quicksand;
+    font-weight: 200;
+    font-size: 18px;
+    margin-top: 30px; 
+    line-height: 35px;
+}
+
+.instafeed{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.instaoverskrift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: quicksand;
+    font-weight: 200;
+    font-size: 23px;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.instalogo{
+    display: flex;
+    padding:10px;
+
+}
+
+.arrows{
+    display: flex;
+    align-items: center;
 }
