@@ -13,7 +13,6 @@
     src: url(Quicksand.ttf);
 }
 
-
 *{
     margin: 0px;
     padding: 0px;
@@ -27,9 +26,9 @@ header{
     align-items: center;
     gap: 60px;
     padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 98,9%;
     background: url(headerpic.jpg);
 
 }
@@ -42,19 +41,71 @@ header{
     padding-right: 15px;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 40px;
+/*********** dropdown header **********/
+
+.navbar {
+display: flex;
+align-items: center;
+text-align: center;
+}
+      
+.navbar a {
+float: left;
+font-size: 16px;
+color: #f5f4f4;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: brunoacesc;
+font-size: 18px;
+}
+      
+.dropdown {
+float: left;
+overflow: hidden;
+}
+      
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: #f5f4f4;
+padding: 14px 16px;
+background-color: inherit;
+font-family: brunoacesc;
+font-size: 18px;
+margin: 0;
+}
+      
+      
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #481c7d;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+      
+.dropdown-content a {
+float: none;
+color: #f5f4f4;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-family: brunoace;
+font-size: 13px;
+}
+      
+.dropdown-content a:hover {
+padding:12px;
+}
+      
+.dropdown:hover .dropdown-content {
+display: block;
 }
 
-nav a {
-    font-family: brunoacesc;
-    text-decoration: none;
-    color:#f2f1f0;
-
-}
 
 /*********** forside **********/
 
@@ -76,7 +127,7 @@ main{
     font-size: 20px;
     font-family: brunoace;
     color: #481B81;
-    margin-top: 90px;
+    margin-top: 120px;
     margin-bottom: 10px;
 }
 
@@ -87,18 +138,18 @@ main{
 }
 
 .tokolonnerforside > section{
-    width: 580px;
-    height: 600px;
+    width: 570px;
+    height: 557px;
     background-color: #f5f4f4;
-    margin-top: 60px;
-    padding:10px;
+    margin-top: 40px;
+    padding:20px;
     text-align: left;
 }
 
-.tokolonnerforside h2{
+.tokolonnerforside p{
     font-family: quicksand;
     font-weight: 200;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 30px; 
     line-height: 35px;
     color: #303030;
@@ -109,11 +160,11 @@ main{
 
 .overskriftspillested{
     display: flex;
-    font-size: 20px;
+    font-size: 25px;
     font-family: brunoace;
     color: #481B81;
-    margin-top: 70px;
-    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 .tokolonner{
@@ -123,26 +174,26 @@ main{
 }
 
 .tokolonner > section{
-    width: 480px;
-    height: 560px;
+    width: 440px;
+    height: 480px;
     margin-top: 20px;
-    padding:30px;
+    padding:60px;
     text-align: center;
-    color: #303030;
 }
 
 .tokolonner h2{
+    text-align: left;
     font-family: quicksand;
     font-weight: 200;
-    font-size: 22px;
-    margin-top: 30px;
-    text-align: left;
+    font-size: 21px;
     line-height: 35px;
+    color: #303030;
+    margin-top: 25px;
 }
 
 .spillestedpic{
-    margin-top: 20px;
     display:flexbox;
+    margin-top: -5%;
 }
 
 
@@ -157,6 +208,8 @@ main{
     background-color: #ffffff;
 }
 
+/*********** maps spillesteder **********/
+
 .tokolonnermaps{
     display: flex;
     justify-content:center;
@@ -164,11 +217,10 @@ main{
 }
 
 .tokolonnermaps > section{
-    width: 530px;
-    height: 600px;
+    width: 500px;
+    height: 450px;
     background-color: #f5f4f4;
     margin-top: 50px;
-    padding:5px;
     text-align: left;
     color: #303030;
 }
@@ -176,27 +228,28 @@ main{
 .overskriftmaps{
     display: flex;
     justify-content: left;
-    font-size: 13px;
+    font-size: 11px;
     font-family: quicksand;
     color: #303030;
     margin-top: 90px;
-    margin-bottom: 10px;
 }
 
 .tokolonnermaps h3{
     font-family: quicksand;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 17px;
     margin-top: 30px; 
-    line-height: 35px;
+    line-height: 25px;
 }
+
+/*********** instagram **********/
 
 .instafeed{
     display: flex;
     width: 100%;
     justify-content: space-around;
     background-color: #ffffff;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 .instaoverskrift{
@@ -214,10 +267,35 @@ main{
 .instalogo{
     display: flex;
     padding:10px;
-
 }
 
 .arrows{
     display: flex;
     align-items: center;
+}
+
+/*********** footer **********/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: #741840;
+}
+
+footer p{
+    gap: 40px;
+    font-family:quicksand;
+    letter-spacing: 2px; 
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#logofooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
 }
