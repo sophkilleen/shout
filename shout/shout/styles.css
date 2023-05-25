@@ -1,0 +1,395 @@
+@font-face {
+    font-family: brunoacesc;
+    src: url(BrunoAceSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: brunoace;
+    src: url(BrunoAce-Regular.ttf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(Quicksand.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*********** header **********/
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background: url(headerpic.jpg);
+
+}
+
+#mobilheader{
+    display: none;
+}
+
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*********** dropdown header **********/
+
+.navbar {
+display: flex;
+align-items: center;
+text-align: center;
+}
+      
+.navbar a {
+float: left;
+font-size: 16px;
+color: #f5f4f4;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: brunoacesc;
+font-size: 18px;
+}
+      
+.dropdown {
+float: left;
+overflow: hidden;
+}
+      
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: #f5f4f4;
+padding: 14px 16px;
+background-color: inherit;
+font-family: brunoacesc;
+font-size: 18px;
+margin: 0;
+}
+      
+      
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #481c7d;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+      
+.dropdown-content a {
+float: none;
+color: #f5f4f4;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+font-family: brunoace;
+font-size: 13px;
+}
+      
+.dropdown-content a:hover {
+padding:12px;
+}
+      
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+
+/*********** forside **********/
+
+main{
+    display:flex;
+    flex-direction: column;
+    background-color: #f5f4f4;
+} 
+
+
+.overskriftforside{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    font-family: brunoace;
+    color: #481B81;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+.tokolonnerforside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+}
+
+.tokolonnerforside > section{
+    width: 520px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding:30px;
+    text-align: left;
+}
+
+.tokolonnerforside p{
+    font-family: quicksand;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 30px; 
+    line-height: 35px;
+    color: #303030;
+}
+
+
+/*********** spillesteder **********/
+
+.overskriftspillested{
+    display: flex;
+    font-size: 25px;
+    font-family: brunoace;
+    color: #481B81;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.tokolonner{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.tokolonner > section{
+    width: 440px;
+    height: 480px;
+    margin-top: 20px;
+    padding:60px;
+    text-align: center;
+}
+
+.tokolonner h2{
+    text-align: left;
+    font-family: quicksand;
+    font-weight: 200;
+    font-size: 21px;
+    line-height: 35px;
+    color: #303030;
+    margin-top: 25px;
+}
+
+.spillestedpic{
+    margin-top: -5%;
+}
+
+
+.trekolonner{
+    width:100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+}
+
+/*********** maps spillesteder **********/
+
+.tokolonnermaps{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.tokolonnermaps > section{
+    width: 500px;
+    height: 450px;
+    background-color: #f5f4f4;
+    margin-top: 50px;
+    text-align: left;
+    color: #303030;
+}
+
+.overskriftmaps{
+    display: flex;
+    justify-content: left;
+    font-size: 11px;
+    font-family: quicksand;
+    color: #303030;
+    margin-top: 90px;
+}
+
+.tokolonnermaps h3{
+    font-family: quicksand;
+    font-weight: 200;
+    font-size: 17px;
+    margin-top: 30px; 
+    line-height: 25px;
+}
+
+/*********** instagram **********/
+
+.instafeed{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding-bottom: 80px;
+}
+
+.instaoverskrift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: quicksand;
+    font-weight: 200;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.instalogo{
+    display: flex;
+    padding:10px;
+}
+
+.instalogo2{
+    display: none;
+}
+
+.arrows{
+    display: flex;
+    align-items: center;
+}
+
+/*********** footer **********/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: #741840;
+}
+
+footer p{
+    gap: 40px;
+    font-family:quicksand;
+    letter-spacing: 2px; 
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#logofooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+
+/*********** responsive **********/
+
+@media screen and (max-width:1150px){
+
+    #pcheader{
+        display: none;
+    }
+
+    #mobilheader{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 50px 0px 50px ;
+    }
+
+    header{
+        width:100%
+    }
+    /*********** forside **********/
+    
+    .overskriftforside{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:-80px
+    }
+
+    .tokolonnerforside img{
+        width: 100%;
+    }
+
+    .tokolonnerforside > section {
+        width: 576px;
+        
+    }
+    .instafeed img{
+        display: flex;
+        width:100%;
+        
+    }
+
+    .instaoverskrift p{
+        font-size: 19px;
+    }
+
+    .arrows{
+        display: none;
+    }
+
+    /*********** spillesteder **********/
+   
+    .overskriftspillested{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+
+    .spillestedpic{
+        margin-top:-50px;
+    }
+
+    .tokolonner h2{
+        font-size:20px;
+    }
+
+    .tokolonner > section{
+        width: 460px;
+        height: 410px;
+        margin-top: 0px;
+    }
+    
+    .tokolonner img{
+        width:100%
+    }
+    
+    .trekolonner img{
+        width:100%;
+    }
+
+
+    iframe{
+        width: 100%;
+    }
+
+    #adresse{
+        display:none;
+    }
+
+        
+}
+
+@media screen and (max-width:600px){
+
+}
