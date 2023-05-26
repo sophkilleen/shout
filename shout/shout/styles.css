@@ -28,11 +28,11 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
-    background: url(headerpic.jpg);
+    background: url(images/headerpic.jpg);
 
 }
 
-#mobilheader{
+.mobilheader{
     display: none;
 }
 
@@ -324,7 +324,11 @@ footer p{
         display: none;
     }
 
-    #mobilheader{
+    #logo{
+        display: none;
+    }
+
+    .mobilheader{
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -418,15 +422,14 @@ footer p{
 
 @media screen and (max-width:550px){
 
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
 
   .header{
     width:100%;
     }
-
-    .footer{
-    width:100%;
-    }
-
 /*********** spillesteder **********/  
 
     .tokolonner > section{
@@ -463,9 +466,20 @@ footer p{
         display: none;
     }
 
+    .tokolonnerforside img{
+        width:100%;
+    }
+
         /*********** footer **********/    
  footer p {
     margin: 0px 10px 0px ;
+    text-decoration: none;
  }
+
+ .footer{
+    width:100%;
+    }
+
+
 
 }
