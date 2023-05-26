@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: brunoacesc;
     src: url(BrunoAceSC-Regular.ttf);
@@ -198,7 +199,6 @@ main{
     margin-top: -5%;
 }
 
-
 .trekolonner{
     width:100%;
     margin: auto;
@@ -318,7 +318,7 @@ footer p{
 
 /*********** responsive **********/
 
-@media screen and (max-width:1150px){
+    @media screen and (max-width:1150px){
 
     #pcheader{
         display: none;
@@ -345,7 +345,8 @@ footer p{
     header{
         width:100%
     }
-    /*********** forside **********/
+
+/*********** forside **********/
     
     .overskriftforside{
         display: flex;
@@ -362,10 +363,12 @@ footer p{
         width: 100%;
     }
 
-    .tokolonnerforside > section {
-        width: 50%;
-        
+    .tokolonnerforside > section{
+        width: 50%;  
     }
+
+/*********** instagram **********/
+
     .instafeed img{
         display: flex;
         width:90%;
@@ -380,7 +383,7 @@ footer p{
         display: none;
     }
 
-    /*********** spillesteder **********/
+/*********** spillesteder **********/
    
     .overskriftspillested{
         margin-top: 0px;
@@ -409,6 +412,7 @@ footer p{
         width:100%;
     }
 
+/*********** maps **********/
 
     iframe{
         width: 100%;
@@ -420,16 +424,17 @@ footer p{
 
 }
 
-@media screen and (max-width:550px){
+    @media screen and (max-width:550px){
 
     *{
         margin: 0px;
         padding: 0px;
     }
 
-  .header{
+    .header{
     width:100%;
     }
+
 /*********** spillesteder **********/  
 
     .tokolonner > section{
@@ -448,18 +453,18 @@ footer p{
 
 /*********** forside **********/  
 
-.overskriftforside{
+    .overskriftforside{
        font-size: 17px;
     }
 
     .tokolonnerforside p{
-    font-size: 15px;
+        font-size: 15px;
     }
    
+/*********** instagram **********/
 
     .instaoverskrift p {
-        font-size: 15px ;
-        
+        font-size: 15px ;  
     }
 
     .instalogo{
@@ -470,16 +475,14 @@ footer p{
         width:100%;
     }
 
-        /*********** footer **********/    
- footer p {
-    margin: 0px 10px 0px ;
-    text-decoration: none;
- }
-
- .footer{
-    width:100%;
+/*********** footer **********/    
+    footer p {
+        margin: 0px 10px 0px ;
+        text-decoration: none;
     }
 
-
+    .footer{
+        width:100%;
+    }
 
 }
